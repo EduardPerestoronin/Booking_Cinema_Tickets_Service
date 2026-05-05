@@ -20,7 +20,7 @@ internal static class Program
         while (true)
         {
             Console.Clear();
-            Console.WriteLine("КИНОТЕАТР");
+            Console.WriteLine(" КИНОТЕАТР");
             Console.WriteLine("1. Войти как ПОЛЬЗОВАТЕЛЬ");
             Console.WriteLine("2. Войти как АДМИНИСТРАТОР");
             Console.WriteLine("0. Выход");
@@ -271,7 +271,7 @@ internal static class Program
     private static void ShowAllBookings()
     {
         var bookings = _admin.ViewBookings(_bookings);
-        Console.WriteLine("\nВсе бронирования");
+        Console.WriteLine("\n Все бронирования");
         if (bookings.Count == 0) { Console.WriteLine("Бронирований нет"); return; }
         int i = 1;
         foreach (var b in bookings)
@@ -284,7 +284,7 @@ internal static class Program
     private static Movie? ChooseMovie()
     {
         if (_movies.Count == 0) { Console.WriteLine("Фильмов нет"); return null; }
-        Console.WriteLine("\nФильмы");
+        Console.WriteLine("\nФильмы );
         for (int i = 0; i < _movies.Count; i++)
             Console.WriteLine($"{i + 1}. {_movies[i].Title}");
         Console.Write("Номер фильма: ");
@@ -306,7 +306,7 @@ internal static class Program
     private static Session? ChooseSession()
     {
         if (_sessions.Count == 0) { Console.WriteLine("Сеансов нет"); return null; }
-        Console.WriteLine("\nСеансы");
+        Console.WriteLine("\nСеанс");
         for (int i = 0; i < _sessions.Count; i++)
         {
             var s = _sessions[i];
