@@ -284,7 +284,7 @@ internal static class Program
     private static Movie? ChooseMovie()
     {
         if (_movies.Count == 0) { Console.WriteLine("Фильмов нет"); return null; }
-        Console.WriteLine("\nФильмы );
+        Console.WriteLine("\nФильмы");
         for (int i = 0; i < _movies.Count; i++)
             Console.WriteLine($"{i + 1}. {_movies[i].Title}");
         Console.Write("Номер фильма: ");

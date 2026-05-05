@@ -11,6 +11,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Domain.Cinema_Booking\Domain.Cinema_Booking.csproj" /> 
     <ProjectReference Include="..\Domain.ValueObject\Domain.ValueObject.csproj" />
-  </ItemGroup>
+  </ItemGroup> 
  
 </Project>
