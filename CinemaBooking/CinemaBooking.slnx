@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Domain.Cinema_Booking/Domain.Cinema_Booking.csproj" />
+  <Project Path="Domain.ValueObject/Domain.ValueObject.csproj" />
+  <Project Path="DomainApp/DomainApp.csproj" />
+</Solution>
